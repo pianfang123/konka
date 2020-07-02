@@ -1,0 +1,403 @@
+@charset 'utf-8';
+/*header头部*/
+#header-wrap,.main-wrap,.login-wrap,.con-wrap,.footer-log{
+    width: 1140px;
+    margin: 0 auto;   
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#header-wrap{
+    position: relative;
+    height: 40px;
+}
+header{
+    background-color: #333;
+    height: 40px;
+    font-size: 12px;
+}
+#header-wrap li a{
+    float:left; 
+    height: 14px;
+    margin-top: 14px;
+    border-right: 1px solid #3c423c;
+    width: 70px;
+    text-align: center;
+    color: #b0b0b0;
+}
+#header-wrap li:hover{
+    cursor: pointer;
+}
+#header-wrap .header-c{
+    width: 98px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right:128px;
+}
+.header-c a{
+    color: #b0b0b0;
+}
+.header-c span{
+    margin: 0 10px;
+}
+#header-wrap .header-r{
+    float: right;
+    line-height: 40px;
+    width: 113px;
+    height:40px;
+    background-color: #424242;
+    text-align: center;
+}
+.header-r a{
+    color: #b0b0b0;
+}
+.header-r a .icon-gouwuche{
+    font-size: 14px;
+}
+
+/* main */
+/* 导航栏 */
+.main-wrap{
+    background-color: #f4f4f4;
+    box-shadow:0px 5px  10px 0px #aaa;
+    height: 50px;
+}
+.main-wrap .logo{
+    width: 161px;
+    float: left;
+    background-color: #f4f4f4;
+    margin: 20px 0 0 24px;
+}
+
+.logo,.nav li a,.nav .iconfont{
+    float: left;
+    width: 72px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    color: #767676;
+}
+.nav .iconfont{
+    font-size: 20px;
+}
+.logo,.nav .tvF:hover{
+    color:#ed1c24;
+    background-color: #fff;
+}
+
+.nav .iconfont:hover{
+    background-color: #fff;
+}
+
+
+.nav{
+    position: relative;
+}
+.nav .tv{
+    width: 1140px;
+    /* height: 300px; */
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    display: none;
+    background-color: #ffffff;
+    box-shadow:0px 5px  10px 0px #aaa;
+}
+
+.show{
+    width: 152px;
+    text-align: center;
+    margin: 0 18px;
+    float: left;
+}
+.tvShow:hover .tv{
+    position: absolute;
+    display: block;
+    z-index: 100;
+    top: 50px;
+}
+.show .tvImg{
+    width: 152px;
+    margin-top: 30px;
+}
+.show a img{
+    width: 100%;
+    height: 100%;
+}
+.show h2{
+    font-size: 14px;
+    color: #222222;
+}
+.show span{
+    font-size: 12px;
+    color: #989898;
+}
+.show i{
+    font-size: 12px;
+    color: #ed1c24;
+}
+
+
+/* main */
+/* 导航栏 */
+#main{
+    height: 568px;
+    background:url(https://www.konka.com/public/images/eb/b4/d8/8526a0490bf52be6ab8e72850e7e71fa511afc56.jpg?22603_OW1920_OH588);
+    background-size: 100% 100%;
+    padding-top: 20px;
+}
+.main-wrap{
+    background-color: #f4f4f4;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+.main-wrap .logo{
+    width: 161px;
+    float: left;
+    background-color: #f4f4f4;
+    margin: 11px 0 0 24px;
+}
+.logo,.nav li{
+    float: left;
+    width: 72px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+}
+.nav li a{   
+    color: #767676;
+}
+.nav .iconfont{
+    font-size: 20px;
+}
+.logo,.nav li:hover{
+    color:#ed1c24;
+    background-color: #fff;
+}
+/* main */
+/* 登录窗口 */
+.login-wrap .login{
+    margin-top: 29px;
+    width: 450px;
+    height: 311px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    float: right;
+}
+.login .login-header{
+    height: 42px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+.login .login-header .vip-login{
+    float: left;
+    font-size: 14px;
+    line-height: 42px;
+    color: #333;
+    padding: 0 15px;
+}
+.login .login-header .add-vip{
+    float: right;
+    width: 113px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #f99e1e;
+    border: 1px solid #f79307;
+    margin: 10px 15px 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+.login-header .add-vip a{
+    color: #fff;
+}
+.login-foot p{
+    margin-top: 15px;
+    height: 36px;
+}
+.login-foot .login-xinxi{
+    display: inline-block;
+    width: 88px;
+    height: 34px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+.login-foot .form-xinxi{
+    width: 327px;
+    
+}
+.login-foot .login-yanzheng{
+    width: 141px;
+}
+.form-xinxi,.login-yanzheng{
+    height: 32px;
+    font-size: 14px;
+    color: #999;
+    line-height: 34px;
+    padding-left:16px ;
+}
+.login-foot .yzm{
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    font-size: 18px;
+    background-color: #ececfb;
+    margin:5px 15px 0 30px;
+}
+.login-foot p a{
+    font-size: 12px;
+    color: #767676;
+}
+.login-foot p a:hover{
+    color: #000;
+}
+ .changed{
+    margin-left: 88px;
+}
+.login-foot .changed span{
+    font-size: 14px;
+    color: #333;
+}
+.login-foot .changed a{
+    margin-right: 15px;
+    float: right;
+    font-size: 14px;
+}
+.login-foot .sub{
+    width: 52px;
+    height: 32px;
+    background-color: #c13e2c;
+    border: 1px solid #ac3727;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 88px;
+}
+.login-foot .sub:hover{
+    background-color: #973123;
+}
+.login-foot .sub-p{
+    margin-top: 0;
+}
+/* content */
+/* serve */
+.con-wrap{
+    height: 525px;
+}
+.serve{
+    height: 64px;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.serve-1{
+    width: 228px;
+    border: 1px #666;
+    display: flex;
+    justify-content:space-evenly;
+}
+.serve-2{
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+}
+.serve-2 span{
+    font-size: 18px;
+    color: #b2b2b2;
+}
+.serve-2 i{
+    font-size: 12px;
+    color: #b2b2b2;
+}
+/* content */
+/* links */
+.links{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.links .links-l{
+    width: 888px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+}
+.links .links-l li{
+    margin-top: 22px;
+}
+.links .links-l a{
+    font-size: 12px;
+    font-weight: normal;
+    color:#767676;
+    line-height: 12px;
+}
+.links .links-l a:hover{
+    color: #ff5d59;
+}
+.links .links-r{
+    float: right;
+    width: 250px;
+    height: 128px;
+    border-left: 1px solid #eaeaea;
+}
+/*links-r*/
+.links-r{
+    text-align: center;
+}
+.links-r .tel-num{
+    font-size: 20px;
+    color: #ff5d59;
+    margin: 20px 0 15px;
+}
+.links-r .tel-link{
+    font-size: 12px;
+    color: #ff5d59;
+    border: 1px solid #ff5d59;
+    padding: 7px;
+}
+.links-r .tel-r{
+    margin-left:16px ;
+}
+/*footer*/
+#footer .footer-t{
+    height: 100px;
+    background-color: #313131;
+    color: #666;
+    font-size: 12px;
+}
+#footer .footer-t a{
+    color: #666;
+    font-size: 12px;
+}
+#footer .footer-t span{
+    margin: 0 5px;
+}
+#footer .footer-t a:hover{
+    color: #fff;
+}
+#footer .footer-t img{
+    display: inline-block;
+    margin: 37px 113px 0;
+}
+#footer .footer-t p{
+    float: right;
+    line-height: 100px;
+    margin-right: 96px;
+}
+#footer .footer-b{
+    height: 72px;
+    text-align: center;
+}
+.footer-b .footer-log{
+    display: flex;
+    justify-content: center;
+}
+.footer-log a{
+    margin: 10px 5px;
+}

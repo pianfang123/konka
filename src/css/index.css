@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+/* 亚马逊菜单 */
+#bannerBox{
+    position: relative;
+    margin-bottom: 19px;
+}
+#menu{
+    width: 234px;
+    height: 500px;
+    background-color: rgb(0, 0, 0,.6);
+    position: absolute;
+    top: 0;
+    z-index: 50;
+    left: 189px;
+}
+.menu-wrap{
+    margin-top: 30px;
+    /* position: relative; */
+    
+}
+.menu-wrap li{
+    width: 204px;
+    height: 45px;
+    margin-top: 5px;
+    padding-left: 30px;
+    /* position: relative; */
+}
+.menu-wrap li a{
+    display: block;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+}
+.menu-wrap .icon-iconfontjiantou5{
+    position: absolute;
+    right: 30px;
+}
+.menu-wrap li:hover{
+    background-color: red;
+}
+
+
+.shows{
+    width: 226px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    left: 226px;
+    top: 0px;
+    display: none;
+}
+.showing:hover .shows{
+    display: block;
+}
+
+.shows_wrap a{
+    display: block;
+    width: 200px;
+    height: 55px;
+    /* background-color: #ccc; */
+    margin:0 0 30px 22px;
+    padding-top: 11px;
+}
+.hehe{
+    float: left;
+}
+.shows .shows_wrap a img,.wocao{
+    float: left;
+}
+.shows_wrap a span{
+    font-size: 14px;
+    color: #333333;
+}
+.shows .shows_wrap span:hover{
+    color: red;
+}
+
+
+
+/* center */
+#centerBox{
+    margin-bottom: 44px;
+}
+#center-wrap{
+    overflow: hidden;
+}
+.center_box{
+    width: 270px;
+    height: 180px;
+    background-color: #ccc;
+    margin-right: 20px;
+    float: left;
+}
+.center_box i{
+    font-weight: bolder;
+    font-size: 22px;
+    display: block;
+    color: #fff;
+}
+.center_box span a{
+    font-size: 14px;
+    margin: 0px 16px 0 16px;
+    color: #fff;
+    
+}
+.center_box div{
+    padding-top: 22px;
+    background-color: #f68387;
+    width: 90px;
+    height: 68px;
+    float: left;
+    text-align: center;
+}
+.center_box .deepColor{
+    background-color: #f2555b;
+}
+
+.center_box div:hover{
+    background-color: #ee3239;
+}
+
+.photoBox{
+    width: 850px;
+    height: 180px;
+    float: left;
+}
+.photoBox div{
+    float: left;
+}
+.photoBox div img{
+    width: 270px;
+    height: 180px;
+}
+.photoBox .photo2{
+   margin: 0 20px;
+}
+
+
+/* star */
+
+#star{
+    overflow: hidden;
+}
+#star-wrap{
+    height: 376px;
+    /* background-color: pink; */
+}
+
+#star-wrap .icon-huangguan{
+    display: block;
+    font-size: 30px;
+    color: #9e9e9f;
+}
+#star-wrap .star_head{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#star-wrap .star_head .icon-huangguan,.star_sp{
+    margin-right: 14px;
+    float: left;
+    line-height: 24px;
+}
+#star-wrap .star_head span a{
+    font-size: 22px;
+    color: #767676;
+}
+
+#star-wrap .star_head span a:hover{
+    color: #000;
+}
+
+.star_box{
+    width: 1140px;
+    height: 340px;
+}
+.star_box div{
+    width: 270px;
+    height: 340px;
+    background-color: #f7f7f7;
+    float: left;
+}
+.star_box .show_margin{
+    margin-right: 20px;
+}
+.star_box .star_show1 img{
+    width: 175px;
+    height: 155px;
+    margin: 40px auto;
+}
+.star_box div .star_a{
+    font-size: 14px;
+    color: #222222;
+    line-height: 14px;
+    text-align: center;
+}
+
+.star_box div .star_b{
+   font-size: 12px;
+   color: #989898;
+   line-height: 12px;
+   text-align: center;
+   margin: 17px 0;
+}
+.star_box div .star_c{
+    font-size: 12px;
+    color: #ed1c24;
+    text-align: center;
+    line-height: 12px;
+    display: block;
+}
+
+.star_box .star_show2 img{
+    width: 170px;
+    height: 160px;
+    margin: 38px auto;
+}
+
+.star_box .star_show3 img{
+    width: 180px;
+    height: 180px;
+    margin: 25px auto;
+}
+
+.star_box .star_show4 img{
+    width: 95px;
+    height: 140px;
+    margin: 44px auto;
+}
+
+
+
+
+#tvBanner{
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top: 50px;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+#tvBanner-wrap{
+    overflow: hidden;
+}
+.tvBanner_head{
+    height: 46px;
+}
+.tvBanner_head .head_boxl{
+    float: left;
+}
+.tvBanner_head .head_boxr{
+    float: right;
+    margin-top: 8px;
+}
+#tvBanner-wrap .head_boxl i{
+    display: block;
+    float: left;
+}
+#tvBanner-wrap .head_boxl span{
+    float: left;
+}
+.head_boxl .icon-dianshi{
+    font-size: 30px;
+    color: #9e9e9f;
+    margin-right: 14px;
+}
+.head_boxl .tvBanner_sp a{
+    font-size: 22px;
+    color: #767676;
+}
+.head_boxr a:hover i{
+    color: red;
+}
+.head_boxr i{
+    font-size: 14px;
+    color: #333333;
+}
+.head_boxr .redColori i{
+    color: #ff5b57;
+}
+
+.sTvShow{
+    width: 1140px;
+}
+.sTvShow .sTvShow1 img{
+    width: 180px;
+    height: 170px;
+    margin: 50px auto 30px;
+}
+.sTvShow .sTvShow1{
+    width: 270px;
+    height: 340px;
+    background-color: #fff;
+    float: left;
+    margin-top: 20px;
+}
+.sTvShow div .sTvShow_a{
+    font-size: 14px;
+    color: #222222;
+    line-height: 14px;
+    text-align: center;
+}
+
+.sTvShow div .sTvShow_b{
+   font-size: 14px;
+   color: #989898;
+   line-height: 12px;
+   text-align: center;
+   margin: 17px 0;
+}
+.sTvShow div .sTvShow_c{
+    font-size: 14px;
+    color: #ed1c24;
+    text-align: center;
+    line-height: 12px;
+    display: block;
+}
+.tvshow_margin{
+    margin-right: 20px;
+}
